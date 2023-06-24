@@ -4,9 +4,11 @@ import "../styles/styles.css";
 
 // Component
 function Header() {
-    return (
-        
-    );
+  return (
+    <header className="header">
+      <h1>Welcome</h1>
+    </header>
+  );
 }
 // Exported Component
 export default Header;
