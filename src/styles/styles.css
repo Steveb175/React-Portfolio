@@ -1,0 +1,59 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+:root {
+    --LightPurple: #9B76E3;
+    --MediumPurple: #6F41C2;
+    --DarkPurple: #46237A;
+    --SpringGreen: #26FFA0;
+    --Eucalyptus:  #3DDC97;
+}
+
+/* HEADER */
+.header {
+    background: var(--MediumPurple);
+    height: 200px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-top: 75px;
+    text-align: center;
+    color: var(--Eucalyptus);
+    font-size: 3rem;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    background: var(--DarkPurple);
+    height: 60px;
+  }
+  
+  .navbar a {
+    color: var(--Eucalyptus);
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 5px;
+    line-height: 3;
+  }
+  
+  /* SECTION */
+  .section {
+    background: var(--SpringGreen);
+    padding: 20px;
+  }
+  
+  .section h2 {
+    text-align: center;
+  }
+
+  /* FOOTER */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+  }
