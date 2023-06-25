@@ -6,9 +6,11 @@ import "../styles/styles.css";
 function Header() {
   return (
     <header className="header">
-      <h1>Welcome</h1>
+      <img src="/me.jpg" alt="Stephen" />
+      <h1>Stephen Bondurant</h1>
     </header>
   );
 }
+
 // Exported Component
 export default Header;
