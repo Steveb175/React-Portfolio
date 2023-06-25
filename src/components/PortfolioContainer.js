@@ -1,9 +1,11 @@
 // Imports
 import React, { useState } from "react";
-import NavTabs from "./NavTabs.Js";
+import NavTabs from "./NavTabs";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Footer from "./Footer";
+import Header from "./Header";
 
 // Component
 export default function PortfolioContainer() {
@@ -23,8 +25,10 @@ export default function PortfolioContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
+      <Header />
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
