@@ -39,6 +39,8 @@
   /* NAVBAR */
   .nav-tabs {
     background: var(--DarkPurple);
+    --bs-nav-tabs-border-color: var(--DarkPurple) !important;
+
   }
   ul.nav.nav-tabs a.nav-link.active {
     background: var(--SpringGreen);
@@ -47,7 +49,7 @@
   
   .nav-tabs a {
     color: var(--Eucalyptus);
-    font-size: 1.rem;
+    font-size: 1rem;
     text-decoration: none;
     margin: 3px;
     line-height: 2;
@@ -89,6 +91,6 @@
   }
 
   /* BACKGROUND HTML PAGE */
-  body {
-    background-color: var(--SpringGreen);
+  body.custom-body {
+    background-color: var(--SpringGreen) !important;
   }
