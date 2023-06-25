@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--Eucalyptus)
 }
 
 .header img {
@@ -27,32 +28,35 @@
   margin-right: 20px;
 }
 
-  .header h1 {
+  h1 {
     margin: 0;
-    padding-top: 75px;
+    padding-top: 25px;
     text-align: center;
     color: var(--Eucalyptus);
     font-size: 3rem;
   }
 
   /* NAVBAR */
-  .navbar {
+  .nav-tabs {
     background: var(--DarkPurple);
-    height: 60px;
+  }
+  ul.nav.nav-tabs a.nav-link.active {
+    background: var(--SpringGreen);
+    border-color: black;
   }
   
-  .navbar a {
+  .nav-tabs a {
     color: var(--Eucalyptus);
-    font-size: 1.3rem;
+    font-size: 1.rem;
     text-decoration: none;
-    margin: 5px;
-    line-height: 3;
+    margin: 3px;
+    line-height: 2;
   }
   
   /* SECTION */
   .section {
     background: var(--SpringGreen);
-    padding: 20px;
+    padding: 20px;  
   }
   
   .section h2 {
@@ -76,4 +80,15 @@
   .project-card-container {
     max-width: 500px;
     margin: 0 auto;
+  }
+  /* PAGES */
+  .page-div {
+    background-color: var(--MediumPurple);
+    border-radius: 10px;
+    color: var(--Eucalyptus)
+  }
+
+  /* BACKGROUND HTML PAGE */
+  body {
+    background-color: var(--SpringGreen);
   }

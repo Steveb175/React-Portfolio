@@ -1,9 +1,13 @@
 import React from "react";
+import "../../styles/styles.css";
 
 export default function Projects() {
   return (
-    <div>
-      <h1 className="text-center">Projects</h1>
+    <div
+      className="page-div pb-5 mt-5"
+      style={{ marginLeft: "3rem", marginRight: "3rem" }}
+    >
+      <h1>Projects</h1>
       <div className="container d-flex justify-content-center">
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">

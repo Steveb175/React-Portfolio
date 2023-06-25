@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 // Component
 function Footer() {
   return (
-    <footer className="d-flex justify-content-center">
+    <footer className="d-flex justify-content-center mt-3">
       <div className="social-icons">
         <a href="https://www.linkedin.com/in/stephen-bondurant-018b73150/">
           <FaLinkedin size={32} />

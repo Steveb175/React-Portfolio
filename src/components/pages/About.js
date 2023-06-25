@@ -1,8 +1,9 @@
 import React from "react";
+import "../../styles/styles.css";
 
 export default function About() {
   return (
-    <div className="container">
+    <div className="container page-div mt-5 pb-3">
       <h1>About Me</h1>
       <p className="lead">
         I'm a highly motivated web developer with a background in psychology. I
