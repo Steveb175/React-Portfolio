@@ -4,7 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-  The purpose of this application is to demonstrate my abilities and provide an easy way for prospective employers to get all of my information in one place.
+  The purpose of this application is to demonstrate my abilities and provide an easy way for prospective employers to get all of my information in one place.  
+  [Click here](https://react-portfolio-delta-wine.vercel.app/) to view the live application on Vercel.
 
 ## Visuals
 ![Example Visual](/public/Capture.PNG)
