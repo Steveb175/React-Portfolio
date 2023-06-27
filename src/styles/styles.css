@@ -83,6 +83,36 @@
     max-width: 500px;
     margin: 0 auto;
   }
+
+  .project-title {
+    color: var(--DarkPurple);
+    border-radius: 10px;
+    background-color: var(--SpringGreen);
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .project-card {
+    background-color: var(--Eucalyptus) !important;
+    border-radius: 10px;
+    color: var(--Eucalyptus);
+    margin: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+  }
+
+  .project-img { 
+    border-radius: 10px;
+  }
+
+  .project-img:hover {
+    opacity: 0.5;
+  }
+
+  .project-img:active {
+    border: #46237A 2px solid;
+  }
   /* PAGES */
   .page-div {
     background-color: var(--MediumPurple);

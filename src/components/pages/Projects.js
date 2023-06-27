@@ -12,12 +12,17 @@ export default function Projects() {
         <div className="row row-cols-1 row-cols-md-2 g-4">
           <div className="col">
             <div className="project-card-container">
-              <div className="card">
-                <a href="https://steveb175.github.io/Brewery-Finder/">
+              <div className="card project-card">
+                <p className="project-title">Brewery Finder</p>
+                <a
+                  href="https://github.com/Steveb175/Brewery-Finder"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/brewery-finder.PNG"
                     alt="Brewery Finder"
-                    className="card-img-top"
+                    className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
                   />
@@ -27,12 +32,17 @@ export default function Projects() {
           </div>
           <div className="col">
             <div className="project-card-container">
-              <div className="card">
-                <a href="https://steveb175.github.io/Weather-Dashboard/">
+              <div className="card project-card">
+                <p className="project-title">Weather Dashboard</p>
+                <a
+                  href="https://github.com/Steveb175/Weather-Dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/weather-dashboard.PNG"
                     alt="Weather Dashboard"
-                    className="card-img-top"
+                    className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
                   />
@@ -42,12 +52,17 @@ export default function Projects() {
           </div>
           <div className="col">
             <div className="project-card-container">
-              <div className="card">
-                <a href="https://github.com/Steveb175/BattlehawksTailgate">
+              <div className="card project-card">
+                <p className="project-title">Battlehawks Tailgates</p>
+                <a
+                  href="https://github.com/Steveb175/BattlehawksTailgate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/Tailgates.PNG"
                     alt="Battlehawks Tailgates"
-                    className="card-img-top"
+                    className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
                   />
@@ -57,12 +72,17 @@ export default function Projects() {
           </div>
           <div className="col">
             <div className="project-card-container">
-              <div className="card">
-                <a href="https://github.com/Steveb175/Employee-Tracker">
+              <div className="card project-card">
+                <p className="project-title">Employee Tracker</p>
+                <a
+                  href="https://github.com/Steveb175/Employee-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/employee-tracker.png"
                     alt="Employee Tracker"
-                    className="card-img-top"
+                    className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
                   />
@@ -72,12 +92,17 @@ export default function Projects() {
           </div>
           <div className="col">
             <div className="project-card-container">
-              <div className="card">
-                <a href="https://github.com/Steveb175/README-Generator">
+              <div className="card project-card">
+                <p className="project-title">README Generator</p>
+                <a
+                  href="https://github.com/Steveb175/README-Generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/readme-generator.png"
                     alt="README Generator"
-                    className="card-img-top"
+                    className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
                   />
@@ -87,12 +112,17 @@ export default function Projects() {
           </div>
           <div className="col">
             <div className="project-card-container">
-              <div className="card">
-                <a href="https://github.com/Steveb175/Daily-Planner">
+              <div className="card project-card">
+                <p className="project-title">Daily Planner</p>
+                <a
+                  href="https://github.com/Steveb175/Daily-Planner"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="/Daily-Planner-Gif.gif"
                     alt="Daily Planner"
-                    className="card-img-top"
+                    className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
                   />
