@@ -6,6 +6,9 @@ export default function Resume() {
     <div className="container page-div mt-5 pb-5">
       <div className="text-center">
         <h1>Resume</h1>
+        <a className="download-link" href="/SBresume.pdf" download>
+          Download Resume
+        </a>
       </div>
       <div className="d-flex justify-content-center">
         <img

@@ -94,3 +94,15 @@
   body.custom-body {
     background-color: var(--SpringGreen) !important;
   }
+
+/* Resume */
+.download-link {
+  color: var(--Eucalyptus);
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+.download-link:hover {
+  color: var(--DarkPurple);
+  text-decoration: none;
+}
