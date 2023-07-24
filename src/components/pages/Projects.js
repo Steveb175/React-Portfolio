@@ -113,15 +113,15 @@ export default function Projects() {
           <div className="col">
             <div className="project-card-container">
               <div className="card project-card">
-                <p className="project-title">Daily Planner</p>
+                <p className="project-title">Workout Customizer</p>
                 <a
-                  href="https://github.com/Steveb175/Daily-Planner"
+                  href="https://github.com/Steveb175/Workout-Customizer"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="/Daily-Planner-Gif.gif"
-                    alt="Daily Planner"
+                    src="/workoutCustomizer.PNG"
+                    alt="Workout Customizer"
                     className="card-img-top project-img"
                     height="300"
                     style={{ maxWidth: "500px" }}
